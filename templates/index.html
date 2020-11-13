@@ -45,6 +45,11 @@
                 <td>{{.Preco}}</td>
                 <td>{{.Quantidade}}</td>
                 <td>
+                  <a href="/edit?id={{.ID}}" class="btn btn-info b">
+                    editar
+                  </a>
+                </td>
+                <td>
                   <a href="/delete?id={{.ID}}" class="btn btn-danger b">
                     Remover
                   </a>
